@@ -7,7 +7,7 @@ This project is a simple command line application where you can keep track of yo
 I made this to practice working with files, handling user input, and building a small CLI tool without using any external libraries.
 
 
-Features
+FEATURES
 
 - Add a task
 - Update a task
@@ -16,15 +16,14 @@ Features
 - View all tasks
 - Filter tasks by status
 
-
-How to run
+HOW TO RUN
 
 Make sure you have Python installed, then run:
 
 python task_cli.py <command>
 
 
-Commands
+COMMANDA
 
 Add task:
 python task_cli.py add "Buy groceries"
@@ -46,13 +45,13 @@ python task_cli.py list todo
 python task_cli.py list in-progress
 
 
-Notes
+NOTES
 
 - Tasks are saved in a JSON file called tasks.json
 - The file is created automatically if it doesn't exist
 - Each task has an id, description, status, and timestamps
 
-What I learned
+WHAT I LEARNED
 
 - Reading and writing JSON files
 - Handling command line arguments
