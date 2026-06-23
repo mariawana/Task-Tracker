@@ -23,7 +23,7 @@ Make sure you have Python installed, then run:
 python task_cli.py <command>
 
 
-COMMANDA
+COMMANDS
 
 Add task:
 python task_cli.py add "Buy groceries"
